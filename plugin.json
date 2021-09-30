@@ -1,0 +1,17 @@
+{
+	"id": "nodebb-plugin-anonymous-categories",
+	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:post.create",
+			"method": "addPost"
+		},
+		{
+			"hook": "filter:topic.create",
+			"method": "addTopic"
+		}
+	],
+	"templates": "static/templates",
+	"languages": "static/languages"
+}
