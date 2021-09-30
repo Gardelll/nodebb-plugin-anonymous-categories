@@ -1,6 +1,6 @@
 {
 	"id": "nodebb-plugin-anonymous-categories",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"url": "https://github.com/Gardelll/nodebb-plugin-anonymous-categories",
 	"library": "./library.js",
 	"hooks": [
 		{
